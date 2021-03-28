@@ -1,0 +1,15 @@
+//Past this code in console and u in top of all games :)
+
+ var urls = [
+ 'https://www.invokergame.com/a/GxkMpQdZr65Tv3pQlC3568T/6d2DbxlSFSSQrReeTb/gZ53bBpwZgpE.GepZhSeYc.GGQRft6M.gzZ.bCx.aShX?a=1&b=Classic&c=-999999999999&d=1001616894078413&e=1616894078453&f=49&g=10&h=-999999999999000&H0=M&H1=Z&H2=T&H3=A&H4=-&H5=C&H6=C&H7=C&H8=C&H9=C&H10=C&H11=C&H12=C&H13=C&H14=C&H15=Z&H16=G&H17=Q&H18=P&H19=O&H20=R',
+ 'https://www.invokergame.com/a/GxkMpQdZr65Tv3pQlC3568T/6d2DbxlSFSSQrReeTb/gZ53bBpwZgpE.GepZhSeYc.GGQRft6M.gzZ.bCx.aShX?a=1&b=Survival&c=100000000&d=1616894214085&e=1616894244085&f=1000000000&g=200000000&h=1000030000&H0=M&H1=Z&H2=T&H3=A&H4=F&H5=D&H6=D&H7=D&H8=D&H9=D&H10=D&H11=G&H12=Z&H13=Q&H14=P&H15=O&H16=R',
+ 'https://www.invokergame.com/a/GxkMpQdZr65Tv3pQlC3568T/6d2DbxlSFSSQrReeTb/gZ53bBpwZgpE.GepZhSeYc.GGQRft6M.gzZ.bCx.aShX?a=1&b=Random&c=100000000&d=1616894244743&e=1616894274743&f=1000000000&g=200000000&h=1000030000&H0=M&H1=Z&H2=T&H3=A&H4=F&H5=D&H6=D&H7=D&H8=D&H9=D&H10=D&H11=G&H12=Z&H13=Q&H14=P&H15=O&H16=R',
+'https://www.invokergame.com/a/GxkMpQdZr65Tv3pQlC3568T/6d2DbxlSFSSQrReeTb/gZ53bBpwZgpE.GepZhSeYc.GGQRft6M.gzZ.bCx.aShX?a=1&b=Hattrick&c=100000000&d=1616894271155&e=1616894301155&f=1000000000&g=200000000&h=1000030000&H0=M&H1=Z&H2=T&H3=A&H4=F&H5=D&H6=D&H7=D&H8=D&H9=D&H10=D&H11=G&H12=Z&H13=Q&H14=P&H15=O&H16=R',
+'https://www.invokergame.com/a/GxkMpQdZr65Tv3pQlC3568T/6d2DbxlSFSSQrReeTb/gZ53bBpwZgpE.GepZhSeYc.GGQRft6M.gzZ.bCx.aShX?a=1&b=Combo&c=100000000&d=1616894294707&e=1616894324707&f=1000000000&g=200000000&h=1000030000&H0=M&H1=Z&H2=T&H3=A&H4=F&H5=D&H6=D&H7=D&H8=D&H9=D&H10=D&H11=G&H12=Z&H13=Q&H14=P&H15=O&H16=R'
+ ];
+
+
+ for(var i=0;i<urls.length;i++)
+ {
+ 	$.get(urls[i]);
+ }
